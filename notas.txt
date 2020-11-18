@@ -1,0 +1,5 @@
+sudo sed -i -r '/^TryExec/d;s|^(Exec=).*$|\1env QT_SCALE_FACTOR=1 megasync|g' /usr/share/applications/megasync.desktop
+sudo sed -i -r '/^TryExec/d;s|^(Exec=).*$|\1env QT_SCALE_FACTOR=1 megasync|g' /usr/share/applications/megasync.desktop
+sudo sed -i "s|megasync|env QT_SCALE_FACTOR=1 megasync|" /usr/share/applications/megasync.desktop
+
+grep -E "(^TryExec=|^Exec=)" /usr/share/applications/megasync.desktop | grep -v "env QT_SCALE_FACTOR=1"
