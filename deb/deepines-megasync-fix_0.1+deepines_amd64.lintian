@@ -1,0 +1,14 @@
+E: deepines-megasync-fix: file-in-etc-not-marked-as-conffile etc/xdg/autostart/deepines-megasync-fix.desktop
+E: deepines-megasync-fix: copyright-file-contains-full-gpl-license
+E: deepines-megasync-fix: copyright-should-refer-to-common-license-file-for-gpl
+W: deepines-megasync-fix: extended-description-line-too-long
+E: deepines-megasync-fix: dir-or-file-in-opt opt/deepines/
+E: deepines-megasync-fix: dir-or-file-in-opt opt/deepines/deepines-megasync-fix/
+E: deepines-megasync-fix: dir-or-file-in-opt opt/deepines/deepines-megasync-fix/about-deepines-megasync-fix.html
+E: deepines-megasync-fix: dir-or-file-in-opt opt/deepines/deepines-megasync-fix/images/
+E: deepines-megasync-fix: dir-or-file-in-opt opt/deepines/deepines-megasync-fix/images/image1.png
+W: deepines-megasync-fix: binary-without-manpage usr/bin/deepines-megasync-fix
+E: deepines-megasync-fix: md5sums-lists-nonexistent-file usr/share/icons/hicolor/scalable/apps/deepines-megasync-fix.sv
+W: deepines-megasync-fix: file-missing-in-md5sums usr/share/icons/hicolor/scalable/apps/deepines-megasync-fix.svg
+W: deepines-megasync-fix: desktop-command-not-in-package usr/share/applications/deepines-megasync-fix.desktop xdg-open
+W: deepines-megasync-fix: maintainer-script-ignores-errors postinst

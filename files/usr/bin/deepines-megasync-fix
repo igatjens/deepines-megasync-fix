@@ -1,0 +1,16 @@
+#! /bin/bash
+
+if [[ -f /usr/share/applications/megasync.desktop ]]; then
+	echo "/usr/share/applications/megasync.desktop... found"
+
+	if [[ $(grep -E "(^TryExec=|^Exec=)" /usr/share/applications/megasync.desktop | grep -v "env QT_SCALE_FACTOR=1") ]]; then
+		#statements
+		sudo sed -i -r '/^TryExec/d;s|^(Exec=).*$|\1env QT_SCALE_FACTOR=1 megasync|g' /usr/share/applications/megasync.desktop
+		echo "Fixing megasync for Deepin 20... OK"
+	else
+		echo "/usr/share/applications/megasync.desktop it is already repaired."
+	fi
+
+else
+	echo "/usr/share/applications/megasync.desktop not exist."
+fi

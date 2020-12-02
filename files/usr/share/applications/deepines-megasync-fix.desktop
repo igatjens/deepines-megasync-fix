@@ -1,0 +1,35 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+GenericName=MEGAsync Fix
+Name=MEGAsync Fix
+Comment=Patch that allows Mega to run correctly in Deepin 20
+Exec=xdg-open /home/jaca/dev/github/deepines-megasync-fix/files/opt/deepines/deepines-megasync-fix/about-deepines-megasync-fix.html
+Icon=deepines-megasync-fix
+Terminal=false
+Categories=Network;System;
+StartupNotify=false
+X-GNOME-Autostart-Delay=60
+Name[zh_CN]=修复Megasync
+Name[zh_TW]=修复Megasync
+Name[en]=FixMEGAsync
+Name[es]=Reparar Megasync
+Name[fr]=Réparer Megasync
+Name[it]=Ripara Megasync
+Name[pt]=Reparar Megasync
+Name[pt_BR]=Reparar Megasync
+Name[sr]=Поправите Мегасинц
+Name[ru]=Ремонт Megasync
+Name[tr]=Megasync'i onarın
+Comment[zh_CN]=可使Mega在Deepin 20中正确运行的补丁
+Comment[zh_TW]=可使Mega在Deepin 20中正确运行的补丁
+Comment[en]=Patch that allows Mega to run correctly in Deepin 20
+Comment[es]=Parche que permitir que ejecutar correctamente Mega en Deepin 20
+Comment[fr]=Patch qui permet à Mega de fonctionner correctement dans Deepin 20
+Comment[it]=Patch che consente a Mega di funzionare correttamente in Deepin 20
+Comment[pt]=Patch que permite ao Mega funcionar corretamente no Deepin 20
+Comment[pt_BR]=Patch que permite ao Mega funcionar corretamente no Deepin 20
+Comment[sr]=Закрпа која омогућава Меги да правилно ради у Деепин 20
+Comment[ru]=Патч, который позволяет Mega корректно работать в Deepin 20
+Comment[tr]=Mega'nın Deepin 20'de doğru şekilde çalışmasını sağlayan yama
+

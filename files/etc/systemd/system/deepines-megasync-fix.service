@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the Megasync patch once at every system boot
+After=lightdm.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/deepines-megasync-fix
+
+[Install]
+WantedBy=multi-user.target
